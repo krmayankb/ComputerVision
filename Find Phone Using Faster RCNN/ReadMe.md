@@ -18,8 +18,7 @@
 in both the cases, path to folder (training script) or image (testing script) should be absolute path.
 
 ### Directory structure
-root: Kumar-Mayank-FindPhone
-
+```
 .
 ├── CustomDataset.py
 ├── Find phone.pdf
@@ -36,6 +35,7 @@ root: Kumar-Mayank-FindPhone
 ├── train_phone_finder.py
 ├── transforms.py
 └── utils.py
+```
 
 - `CustomDataset.py` contains declaration of PhoneDataset class. This is custom written class to load data in format needed before passing it to dataloader for training and validation. 
 - TrainedModel: contains model trained on the provided dataset in folder find_phone. While testing script will load the model from this folder, move it in evaluation mode and then display the predicted co-ordinates. 
