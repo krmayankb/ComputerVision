@@ -1,0 +1,11 @@
+opencv-python 
+numpy
+torch 
+torchvision
+tqdm
+scikit-learn
+Pillow
+collection
+datetime
+pycocotools
+
