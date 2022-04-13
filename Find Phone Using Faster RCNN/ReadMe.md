@@ -19,6 +19,7 @@ in both the cases, path to folder (training script) or image (testing script) sh
 
 ### Directory structure
 root: Kumar-Mayank-FindPhone
+
 .
 ├── CustomDataset.py
 ├── Find phone.pdf
@@ -26,7 +27,6 @@ root: Kumar-Mayank-FindPhone
 ├── Outcome_all_Images.csv
 ├── ReadMe.md
 ├── TrainedModel
-├── __pycache__
 ├── coco_eval.py
 ├── coco_utils.py
 ├── engine.py
